@@ -47,6 +47,7 @@
             </span>
             @else
             <a class="nav-link" href="/login">Login</a>
+            <a class="nav-link" href="/register">Register</a>
             @endif
       </div>
       
