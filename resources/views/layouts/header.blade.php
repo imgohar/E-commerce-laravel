@@ -34,7 +34,7 @@
       
       
       <div class="form-inline my-2 my-lg-0">
-            <a class="nav-link" href="#">Cart({{$total}})</a>
+            <a class="nav-link" href="/cartlist">Cart({{$total}})</a>
             @if(Session::has('user'))
             <span class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
